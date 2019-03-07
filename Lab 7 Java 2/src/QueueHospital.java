@@ -1,5 +1,5 @@
 
-public class QueueHospital 
+public class QueueHospital<PatientType> extends Hospital<PatientType>
 {
 
 	public QueueHospital()
@@ -7,7 +7,7 @@ public class QueueHospital
 		
 	}
 	
-	public void addPatient(PatientType patient())
+	public void addPatient(PatientType patient)
 	{
 		
 	}

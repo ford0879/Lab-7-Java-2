@@ -1,17 +1,17 @@
 import java.util.ArrayList;
 
-public class StackHospital<PatientType>
+public class StackHospital<PatientType> extends Hospital<PatientType>
 {
 
-	private ArrayList<PatientType> stackList;
+//	private ArrayList<PatientType> stackList;
 	public StackHospital()
 	{
-		stackList = new ArrayList<PatientType>();
+	//	stackList = new ArrayList<PatientType>();
 	}
 	
 	public void addPatient(PatientType patient)
 	{
-		stackList.add(patient);
+	//	stackList.add(patient);
 	}
 	
 	public PatientType nextPatient()

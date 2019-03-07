@@ -1,5 +1,5 @@
 
-public class PriorityQueueHospital 
+public class PriorityQueueHospital<PatientType extends Comparable<PatientType>> extends Hospital<PatientType>
 {
 
 	public PriorityQueueHospital()
@@ -7,7 +7,7 @@ public class PriorityQueueHospital
 		
 	}
 	
-	public void addPatient(PatientType patient())
+	public void addPatient(PatientType patient)
 	{
 		
 	}
