@@ -6,7 +6,7 @@ public class StackHospital<PatientType> extends Hospital<PatientType>
 	/**
 	 * Stack type list used for StackHospital patients
 	 */
-	Stack<PatientType> stack = new Stack();
+	Stack<PatientType> stack = new Stack<PatientType>();
 	
 	/**
 	 * Empty default constructor

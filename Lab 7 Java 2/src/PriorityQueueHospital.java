@@ -6,7 +6,7 @@ public class PriorityQueueHospital<PatientType extends Comparable<PatientType>> 
 	/**
 	 * PriorityQueue type list used for PriorityQueueHospital patients
 	 */
-	PriorityQueue<PatientType> priQueue = new PriorityQueue();
+	PriorityQueue<PatientType> priQueue = new PriorityQueue<PatientType>();
 	
 	/**
 	 * Empty default constructor
