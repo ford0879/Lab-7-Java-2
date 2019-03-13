@@ -222,7 +222,12 @@ public class PersonAndHospitalTests
 		Person sick = new SickPerson("a", 5, 5);
 		Person sickTwo = new SickPerson("b", 10, 10);
 		int sickActual = sick.compareTo(sickTwo);
-		int sickExpected = -1;
+		int sickExpected = 1;
+		
+		Assert.assertEquals(sickExpected, sickActual);
+		
+		sickActual = sickTwo.compareTo(sick);
+		sickExpected = -1;
 		
 		Assert.assertEquals(sickExpected, sickActual);
 		
